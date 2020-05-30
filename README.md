@@ -27,7 +27,7 @@ In Machine Learning section, the dataset used was according to age of people whi
 We created various jobs to deal with infrastructure in step by step manner.
 
 ## Job1 (GitHub)
-![Result](Screenshots/ScreenShots/CaptureFINAL9.PNG)
+![Result](ScreenShots/Capture13%(2).PNG)
 
 This job is fairly easy than the other one. This job requires setup of Jenkins and Git in your system. I created a hook in my local Git in post-commit file where once any file is committed by the developer it will be automatically get pushed to its GitHub repository. Then in its second part, I had my Jenkins configured using Poll SCM which kept looking to my repository for any changes made and once it detected any changes it will download them to its Jenkins workspace and then I instructed it to copy the repository downloaded to a particular location.
 
